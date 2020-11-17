@@ -1,5 +1,6 @@
 import * as T from "@effect-ts/core/Effect"
 import * as F from "@effect-ts/core/Effect/Fiber"
+import * as L from "@effect-ts/core/Effect/Layer"
 import { pipe } from "@effect-ts/core/Function"
 import { testRuntime } from "@effect-ts/jest/Runtime"
 import * as Q from "@effect-ts/system/Queue"
@@ -13,10 +14,12 @@ import { ReadLine } from "../src/app/ReadLine"
 import { LiveRoverContext } from "../src/app/RoverContext"
 
 describe("Integration", () => {
-  const { it } = testRuntime(
-    LiveRoverContext["<+<"](LivePlanetContext)
-      ["<+<"](LiveAppConfig)
-      ["<+<"](LiveReadFile)
+  const { it } = pipe(
+    LiveRoverContext,
+    L.using(LivePlanetContext),
+    L.using(LiveAppConfig),
+    L.using(LiveReadFile),
+    testRuntime
   )
 
   it("test main program", () =>
