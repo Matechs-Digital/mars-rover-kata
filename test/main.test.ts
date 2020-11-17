@@ -43,6 +43,8 @@ describe("Integration", () => {
       expect(yield* _(Q.take(output))).toEqual("log: 1:3:N")
       expect(yield* _(Q.take(output))).toEqual("log: 1:0:N")
 
-      yield* _(F.interrupt(fiber))
+      yield* _(Q.offer_(input, ""))
+
+      yield* _(F.join(fiber))
     }))
 })
