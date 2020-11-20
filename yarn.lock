@@ -300,10 +300,10 @@
   dependencies:
     "@effect-ts/core" "^0.8.27"
 
-"@effect-ts/system@^0.6.20":
-  version "0.6.20"
-  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.20.tgz#613edc7de4c1ddd09835f9e1fdf81645606d0c2b"
-  integrity sha512-bVaHKQzaUHT4ranwjGV0h4YnuW7lDQn0PcwtiIIB/SMNA1Lj6Rt1M6rjbTy0rJzUAgZYPXt9+1kV3Vpq9U82Og==
+"@effect-ts/system@^0.6.20", "@effect-ts/system@^0.6.30":
+  version "0.6.30"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.30.tgz#be9fa5cc8bcc941e12d82f9a8b0dfa9776f76b14"
+  integrity sha512-Jd/CHwWSdTs7DjLJ37SXsF3lmOYvkE9wBFemKMVpEPSRGPrw4UTyg1rEr0d3yq/DZhKs5x83dPp21HVzipf57A==
 
 "@eslint/eslintrc@^0.2.1":
   version "0.2.1"
