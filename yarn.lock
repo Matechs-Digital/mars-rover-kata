@@ -279,12 +279,12 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@effect-ts/core@^0.8.27":
-  version "0.8.27"
-  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.8.27.tgz#cfadb6613ef5e6ce9ea5946e442e25864f636600"
-  integrity sha512-ESVs2pPgVg7oavfgBt7jdlym7wuaMjgVekdEibF781n044lSCAz9ZkeQYvjTSBVgz4BcLswTqoW2ZfGYjNG3Gg==
+"@effect-ts/core@^0.8.27", "@effect-ts/core@^0.8.56":
+  version "0.8.56"
+  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.8.56.tgz#c2015f4eb3d511089a42abc78da07b96aa3a7802"
+  integrity sha512-42XJuuHBc5Ee+C0u0GpaRNn830AJkTcKbr4H+XS8YB0qQ8YNC2c2LthJWjr4R8ZPNScrSkH7Wx/TpY8RlF/tBQ==
   dependencies:
-    "@effect-ts/system" "^0.6.20"
+    "@effect-ts/system" "^0.6.46"
 
 "@effect-ts/jest@^0.2.27":
   version "0.2.27"
@@ -293,17 +293,22 @@
   dependencies:
     "@effect-ts/core" "^0.8.27"
 
-"@effect-ts/monocle@^0.7.28":
-  version "0.7.28"
-  resolved "https://registry.yarnpkg.com/@effect-ts/monocle/-/monocle-0.7.28.tgz#8768089f0f38f2b8a3e0c4d457155171818138af"
-  integrity sha512-SGKzXv8pX5F2qEi8vKSHHEKP4qcT2DWlKxLrYtLUuKKlZCp5DQrddcGfBrI+ZvAXPc9wfQYno4lUIuXxwt5yug==
+"@effect-ts/monocle@^0.7.57":
+  version "0.7.57"
+  resolved "https://registry.yarnpkg.com/@effect-ts/monocle/-/monocle-0.7.57.tgz#23ed709e8de7f27b60160055b1e1e2bb3066dbed"
+  integrity sha512-LQTpI0USrRXNAWHrYQe0LajMe6Ikp6soWcEutAEvTI+Tl8+csk6VeloqZQnwuPKke6i6kZ/XxPg7oPAfEPoNUg==
   dependencies:
-    "@effect-ts/core" "^0.8.27"
+    "@effect-ts/core" "^0.8.56"
 
 "@effect-ts/system@^0.6.20":
   version "0.6.20"
   resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.20.tgz#613edc7de4c1ddd09835f9e1fdf81645606d0c2b"
   integrity sha512-bVaHKQzaUHT4ranwjGV0h4YnuW7lDQn0PcwtiIIB/SMNA1Lj6Rt1M6rjbTy0rJzUAgZYPXt9+1kV3Vpq9U82Og==
+
+"@effect-ts/system@^0.6.46":
+  version "0.6.46"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.46.tgz#e068f9b9437598231930c2f2ec79d685642d6169"
+  integrity sha512-8tFZFDhkQhEGK2yXwIV4bxnot9QtG2iCt1K6UTN35D0fky3fiiWMjtEh9RDcQoiVK99GGBDhBq30MljHdCatgw==
 
 "@eslint/eslintrc@^0.2.1":
   version "0.2.1"
