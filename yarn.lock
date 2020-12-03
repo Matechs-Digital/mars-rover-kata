@@ -286,12 +286,19 @@
   dependencies:
     "@effect-ts/system" "^0.6.20"
 
-"@effect-ts/jest@^0.2.27":
-  version "0.2.27"
-  resolved "https://registry.yarnpkg.com/@effect-ts/jest/-/jest-0.2.27.tgz#427b6e0c5c4f673921bbddac8127372a090dca99"
-  integrity sha512-e+20AAodq9geGWZCquR5eG6YW8abJb/kGJSNbuzITZVmJBgKHR5T/lu8D2deUYT6I53neGF5wD3qkIUquwSyNA==
+"@effect-ts/core@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.9.1.tgz#efb6936d472ffcea468a1d0f839fdba234901f4f"
+  integrity sha512-XVX7qulmhhEygpEzfShi/U23Jezqj8T0+8W1zFODyZV8Mw2dqIeClNeUoVvTXTJTTndK8NIb5t0oow2RQx+TrQ==
   dependencies:
-    "@effect-ts/core" "^0.8.27"
+    "@effect-ts/system" "^0.7.1"
+
+"@effect-ts/jest@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@effect-ts/jest/-/jest-0.3.1.tgz#775aa10fb5fa67fb8d939afe5859a9e0ff6d840c"
+  integrity sha512-+9BZ1UnDgYicQ6YIisfKFBH/C9Q6dULZKmz2W9PWcPj1m+8HKsRb0KffcrjruqqPi/fTLvUlwt2zTyQVjrbzlQ==
+  dependencies:
+    "@effect-ts/core" "^0.9.1"
 
 "@effect-ts/monocle@^0.7.28":
   version "0.7.28"
@@ -304,6 +311,18 @@
   version "0.6.20"
   resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.20.tgz#613edc7de4c1ddd09835f9e1fdf81645606d0c2b"
   integrity sha512-bVaHKQzaUHT4ranwjGV0h4YnuW7lDQn0PcwtiIIB/SMNA1Lj6Rt1M6rjbTy0rJzUAgZYPXt9+1kV3Vpq9U82Og==
+
+"@effect-ts/system@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.7.1.tgz#b9ee64aab0f993c4227b835878491e1753978595"
+  integrity sha512-BzqhuCQo+mi0gbduStEwEUnL4EGasxNTPugecZ6B/vfZnf2jJaZmfqQt5CTb3nodr388YxzbbgnXxWNqeab5og==
+  dependencies:
+    "@effect-ts/tracing-utils" "^0.1.0"
+
+"@effect-ts/tracing-utils@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@effect-ts/tracing-utils/-/tracing-utils-0.1.0.tgz#f8e4e7b72bba622ea9e661ad89c88a5bd9f9ea32"
+  integrity sha512-xBt5lHXrgGDByWxs37Lmz5RGFfhbU9Jd9qcbi0uUdRXq/wVKCMoZlS5d2ihgtDX2nt5/kLQuciVrySBWYAzkVg==
 
 "@eslint/eslintrc@^0.2.1":
   version "0.2.1"
