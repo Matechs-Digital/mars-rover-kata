@@ -279,6 +279,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@effect-ts/core@^0.10.14":
+  version "0.10.14"
+  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.10.14.tgz#f07b56193d1fa22f89e3bbbb14138057a4cdf15d"
+  integrity sha512-Uy3q0YU9+V6awnsX8JaIbeyFWVxgPNcbazip8dHAc8grfDOYb5I/Jxw8lQjYF3HetCYWD2GPpGwU3o+uWi/y/A==
+  dependencies:
+    "@effect-ts/system" "^0.8.13"
+
 "@effect-ts/core@^0.8.27":
   version "0.8.27"
   resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.8.27.tgz#cfadb6613ef5e6ce9ea5946e442e25864f636600"
@@ -293,17 +300,29 @@
   dependencies:
     "@effect-ts/core" "^0.8.27"
 
-"@effect-ts/monocle@^0.7.28":
-  version "0.7.28"
-  resolved "https://registry.yarnpkg.com/@effect-ts/monocle/-/monocle-0.7.28.tgz#8768089f0f38f2b8a3e0c4d457155171818138af"
-  integrity sha512-SGKzXv8pX5F2qEi8vKSHHEKP4qcT2DWlKxLrYtLUuKKlZCp5DQrddcGfBrI+ZvAXPc9wfQYno4lUIuXxwt5yug==
+"@effect-ts/monocle@^0.9.14":
+  version "0.9.14"
+  resolved "https://registry.yarnpkg.com/@effect-ts/monocle/-/monocle-0.9.14.tgz#5d6ff04f43bcc8554021b96e371b6f4d860647c8"
+  integrity sha512-mLn6qKeRtMxz7Z17Ux3JVYKDcwcdVeP5NgztZkfahpgLcg73XiOZwlUWTjA2CaEtUkYphgQqwCGGysv4UFlEtQ==
   dependencies:
-    "@effect-ts/core" "^0.8.27"
+    "@effect-ts/core" "^0.10.14"
 
 "@effect-ts/system@^0.6.20":
   version "0.6.20"
   resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.20.tgz#613edc7de4c1ddd09835f9e1fdf81645606d0c2b"
   integrity sha512-bVaHKQzaUHT4ranwjGV0h4YnuW7lDQn0PcwtiIIB/SMNA1Lj6Rt1M6rjbTy0rJzUAgZYPXt9+1kV3Vpq9U82Og==
+
+"@effect-ts/system@^0.8.13":
+  version "0.8.13"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.8.13.tgz#2ad24f452a4a8109ed4fe0e16560779e21c17f35"
+  integrity sha512-GLZ07lTRE18Wnmie1KFWY2X8Aegf80EYy0lVAaokHHmPtuE857otTUDQItLRNMMVOw+S1UP/XEad77ZA2NG1mQ==
+  dependencies:
+    "@effect-ts/tracing-utils" "^0.2.0"
+
+"@effect-ts/tracing-utils@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@effect-ts/tracing-utils/-/tracing-utils-0.2.0.tgz#ab66cc9a7d807f08e017563a9b280d5e57441604"
+  integrity sha512-QGoEm6mxXSNobbS3Gdz6GPTwhJvoFN76Ith1iCYjoNkEUd0RJDwhj3DAJtAFBh+jtYeNiU9FXazN73f0EL6HRA==
 
 "@eslint/eslintrc@^0.2.1":
   version "0.2.1"
