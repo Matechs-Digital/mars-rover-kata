@@ -279,6 +279,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@effect-ts/core@^0.10.15":
+  version "0.10.15"
+  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.10.15.tgz#29d4b0265d0e70d5c09584e3f4083208c09e9af2"
+  integrity sha512-Zsvai3jthV3IzJL9uA2NYER1G29nV8qdV0gS6AXll4x2yy/65RLxl0k5Iz2Nz3oTYpPVuDyzxtY2exFqASE/ew==
+  dependencies:
+    "@effect-ts/system" "^0.8.14"
+
 "@effect-ts/core@^0.8.27":
   version "0.8.27"
   resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.8.27.tgz#cfadb6613ef5e6ce9ea5946e442e25864f636600"
@@ -286,12 +293,12 @@
   dependencies:
     "@effect-ts/system" "^0.6.20"
 
-"@effect-ts/jest@^0.2.27":
-  version "0.2.27"
-  resolved "https://registry.yarnpkg.com/@effect-ts/jest/-/jest-0.2.27.tgz#427b6e0c5c4f673921bbddac8127372a090dca99"
-  integrity sha512-e+20AAodq9geGWZCquR5eG6YW8abJb/kGJSNbuzITZVmJBgKHR5T/lu8D2deUYT6I53neGF5wD3qkIUquwSyNA==
+"@effect-ts/jest@^0.4.15":
+  version "0.4.15"
+  resolved "https://registry.yarnpkg.com/@effect-ts/jest/-/jest-0.4.15.tgz#34bf1715db5977f0162908ce74f17c4aaaf2d17d"
+  integrity sha512-/AZc9HPJQ4UpvSGc/TymjTyCRLtftOUj3UoWU/fnt97t3V+V7iLlj/6eFQPeAF3Riwbn/YRZF8TLCXV3gnOM8A==
   dependencies:
-    "@effect-ts/core" "^0.8.27"
+    "@effect-ts/core" "^0.10.15"
 
 "@effect-ts/monocle@^0.7.28":
   version "0.7.28"
@@ -304,6 +311,18 @@
   version "0.6.20"
   resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.20.tgz#613edc7de4c1ddd09835f9e1fdf81645606d0c2b"
   integrity sha512-bVaHKQzaUHT4ranwjGV0h4YnuW7lDQn0PcwtiIIB/SMNA1Lj6Rt1M6rjbTy0rJzUAgZYPXt9+1kV3Vpq9U82Og==
+
+"@effect-ts/system@^0.8.14":
+  version "0.8.14"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.8.14.tgz#5b4363843ae9ee9a3bdb1b0d8e65fb0c41f28e00"
+  integrity sha512-74ca2yN6iHZn45hWJHlXiykNvBT74AOjj1ZPRlX2NWzA63p9OX9x1hKjhQM0DmqKHlTNNy91y09u3IhMGZYbNw==
+  dependencies:
+    "@effect-ts/tracing-utils" "^0.2.1"
+
+"@effect-ts/tracing-utils@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@effect-ts/tracing-utils/-/tracing-utils-0.2.1.tgz#00b1af4700593dd77ba15e26bd056f7b2861594c"
+  integrity sha512-fKoQWVKRakeHimgtt67PNBYWpSmwuS5NfrTjjwF7S69r1HSicP81Hv3VqMhv+7I7MYqoCsythNGuNFbQ0snq/A==
 
 "@eslint/eslintrc@^0.2.1":
   version "0.2.1"
