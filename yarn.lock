@@ -300,10 +300,22 @@
   dependencies:
     "@effect-ts/core" "^0.8.27"
 
+"@effect-ts/system@^0.10.4":
+  version "0.10.4"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.10.4.tgz#5be9f5d8293760c570c342183e684612de5827ba"
+  integrity sha512-zFwbDvfSAFb0fyNbGB/g2fPvxJaKbjcMAkIGKFo2am5rGs+Qgki/7y76G3RnMKByC2kT2lZYkBDHeToIc8qqDA==
+  dependencies:
+    "@effect-ts/tracing-utils" "^0.2.4"
+
 "@effect-ts/system@^0.6.20":
   version "0.6.20"
   resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.20.tgz#613edc7de4c1ddd09835f9e1fdf81645606d0c2b"
   integrity sha512-bVaHKQzaUHT4ranwjGV0h4YnuW7lDQn0PcwtiIIB/SMNA1Lj6Rt1M6rjbTy0rJzUAgZYPXt9+1kV3Vpq9U82Og==
+
+"@effect-ts/tracing-utils@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@effect-ts/tracing-utils/-/tracing-utils-0.2.4.tgz#e0d70fd7b240799fa4ef534b07ac51833e7e9a6a"
+  integrity sha512-nsxvWYyoBmmVLvVZB3LCtH2hyrMIH+7adwfib1KjMg8mHhc/Zbi3ftNVty1Bem80310tF/sPbR2C5rYDKYHavA==
 
 "@eslint/eslintrc@^0.2.1":
   version "0.2.1"
