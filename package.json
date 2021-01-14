@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@effect-ts/core": "^0.8.27",
-    "@effect-ts/jest": "^0.2.27",
+    "@effect-ts/jest": "^0.6.4",
     "@effect-ts/monocle": "^0.7.28",
     "@effect-ts/system": "^0.6.20",
     "@types/jest": "^26.0.10",
