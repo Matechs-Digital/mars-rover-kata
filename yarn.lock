@@ -300,6 +300,11 @@
   dependencies:
     "@effect-ts/core" "^0.8.27"
 
+"@effect-ts/system@^0.32.3":
+  version "0.32.3"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.32.3.tgz#d9ead207ceb50cb99066498935f9054b998550e1"
+  integrity sha512-WgRd5UcvMrIyf9UG+FrfFLXPVTitZ9dbYrcHB3jh1HNixVWBimjCwD3o8E0mmqiuQPmfBd1N1/GuD6p6Npsajw==
+
 "@effect-ts/system@^0.6.20":
   version "0.6.20"
   resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.6.20.tgz#613edc7de4c1ddd09835f9e1fdf81645606d0c2b"
