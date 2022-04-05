@@ -14,7 +14,7 @@
     "lint": "eslint . --ext .ts,.tsx"
   },
   "dependencies": {
-    "@effect-ts/core": "^0.8.27",
+    "@effect-ts/core": "^0.59.3",
     "@effect-ts/jest": "^0.2.27",
     "@effect-ts/monocle": "^0.7.28",
     "@effect-ts/system": "^0.6.20",
