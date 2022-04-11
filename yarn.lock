@@ -279,6 +279,13 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@effect-ts/core@^0.59.4":
+  version "0.59.4"
+  resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.59.4.tgz#d3388bdc186dabfd453f4d698bbebf5ba80ae5ee"
+  integrity sha512-fyLESilTfvyeEHvu9EuHa1gxiVosc3Dqf9hsGtncQms3fAiH6K0qzzKe/Wc+ZGSbKKk/JrFZm1AumnfFzI+/OA==
+  dependencies:
+    "@effect-ts/system" "^0.56.4"
+
 "@effect-ts/core@^0.8.27":
   version "0.8.27"
   resolved "https://registry.yarnpkg.com/@effect-ts/core/-/core-0.8.27.tgz#cfadb6613ef5e6ce9ea5946e442e25864f636600"
@@ -299,6 +306,11 @@
   integrity sha512-SGKzXv8pX5F2qEi8vKSHHEKP4qcT2DWlKxLrYtLUuKKlZCp5DQrddcGfBrI+ZvAXPc9wfQYno4lUIuXxwt5yug==
   dependencies:
     "@effect-ts/core" "^0.8.27"
+
+"@effect-ts/system@^0.56.4":
+  version "0.56.4"
+  resolved "https://registry.yarnpkg.com/@effect-ts/system/-/system-0.56.4.tgz#9a0a63287aa17c74e05e3ff9ec506ceabf7b5021"
+  integrity sha512-Klf+XJDKL594YLe8nMFh0VYieNnNAg8fc4emy52A9Ch5O/+i75Rqol5Hr+rUWecL5cFcm8UpmRiBjEdBR5d2iw==
 
 "@effect-ts/system@^0.6.20":
   version "0.6.20"
